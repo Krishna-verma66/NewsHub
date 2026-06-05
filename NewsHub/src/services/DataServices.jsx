@@ -1,8 +1,14 @@
 import axios from "axios"
 
 
+// const API = axios.create({
+//     baseURL: 'https://surfacing-twice-backyard.ngrok-free.dev',
+//     headers: {
+//         "ngrok-skip-browser-warning": "true"
+//     }
+// });
 const API = axios.create({
-    baseURL: 'https://surfacing-twice-backyard.ngrok-free.dev',
+    baseURL: 'https://newshubbackend.vercel.app/',
     headers: {
         "ngrok-skip-browser-warning": "true"
     }
